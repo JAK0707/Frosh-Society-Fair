@@ -1,0 +1,148 @@
+body {
+  background-image: url('C:/Users/JAK/Desktop/Project 5/images/bg.png'); /* Specify the path to your background image */
+  background-size: cover; /* Cover the entire viewport */
+}
+
+.what-is-frosh1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 66px;
+    font-weight: 700;
+    font-family: inherit;
+    color: #0e1210;
+  }
+  .header1 {
+    width: 1013px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 var(--padding-smi);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frosh-the-vibrant {
+    flex: 1;
+    position: relative;
+    line-height: 35px;
+    display: inline-block;
+    font-weight: 500;
+    max-width: 100%;
+  }
+  .frosh-description {
+    width: 1015px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 32px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-7xl);
+    color: #ffffff;
+    font-family: var(--font-roboto);
+  }
+  .image-52-icon {
+    position: absolute;
+    top: 0;
+    left: 587px;
+    border-radius: var(--br-31xl);
+    width: 441px;
+    height: 242px;
+    object-fit: cover;
+  }
+  .image-51-icon,
+  .image-53-icon {
+    position: relative;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .image-51-icon {
+    align-self: stretch;
+    height: 232px;
+    border-radius: var(--br-31xl);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .image-53-icon {
+    width: 445px;
+    border-radius: var(--br-51xl);
+    max-height: 100%;
+  }
+  .sub-gallery-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 477px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-18xl);
+    max-width: 100%;
+  }
+  .image-63-icon {
+    position: absolute;
+    top: 269px;
+    left: 587px;
+    border-radius: var(--br-51xl);
+    width: 396px;
+    height: 280px;
+    object-fit: cover;
+  }
+  .gallery3 {
+    align-self: stretch;
+    height: 549px;
+    position: relative;
+    max-width: 100%;
+  }
+  .desktop-5 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 57px 199px 69px 213px;
+    box-sizing: border-box;
+    gap: 6px;
+    background-image: url(./public/desktop--5@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-41xl);
+    color: var(--color-gainsboro);
+    font-family: var(--font-outfit);
+  }
+  @media screen and (max-width: 750px) {
+    .what-is-frosh1 {
+      font-size: var(--font-size-29xl);
+      line-height: 53px;
+    }
+    .desktop-5 {
+      padding-left: 106px;
+      padding-right: 99px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .what-is-frosh1 {
+      font-size: var(--font-size-17xl);
+      line-height: 40px;
+    }
+    .frosh-the-vibrant {
+      font-size: 21px;
+      line-height: 28px;
+    }
+    .desktop-5 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }  
