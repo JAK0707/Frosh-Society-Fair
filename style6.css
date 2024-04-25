@@ -1,6 +1,6 @@
 body {
-  background-image: url('C:/Users/JAK/Desktop/Project 6/images/bg.jpg'); /* Specify the path to your background image */
-  background-size: cover; /* Cover the entire viewport */
+  background-image: url('images/bg.jpg');
+  background-size: cover;
 }
 
 
