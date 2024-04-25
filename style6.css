@@ -1,0 +1,192 @@
+body {
+  background-image: url('C:/Users/JAK/Desktop/Project 6/images/bg.jpg'); /* Specify the path to your background image */
+  background-size: cover; /* Cover the entire viewport */
+}
+
+
+
+.glimpse-of-society {
+  position: relative;
+  line-height: 28px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.content-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 23px 0 var(--padding-mini);
+}
+.image-55-icon {
+  align-self: stretch;
+  height: 221px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-pair {
+  height: 278px;
+  width: 352px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-61-icon {
+  align-self: stretch;
+  height: 222px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.detail-image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  min-width: 242px;
+  max-width: 100%;
+}
+.image-56-icon {
+  align-self: stretch;
+  height: 226px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-pair1 {
+  height: 278px;
+  width: 284px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-57-icon {
+  width: 332px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.content-area-parent,
+.gallery {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.gallery {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.content-area-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 57px;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-darkturquoise);
+  font-family: var(--font-rhodium-libre);
+}
+.image-59-icon,
+.image-60-icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.image-60-icon {
+  width: 422px;
+  max-height: 100%;
+}
+.image-59-icon {
+  align-self: stretch;
+  height: 299px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.side-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  min-width: 297px;
+  max-width: 100%;
+}
+.image-58-icon {
+  width: 433px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 307px;
+  max-width: 100%;
+}
+.desktop-6,
+.sidebar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.sidebar {
+  width: 1368px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.desktop-6 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 104px var(--padding-6xl) 126px;
+  box-sizing: border-box;
+  gap: 124px;
+  background-image: url(./public/desktop--6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .glimpse-of-society {
+    font-size: var(--font-size-29xl);
+    line-height: 16px;
+  }
+  .desktop-6 {
+    gap: 62px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .content-area-parent {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .glimpse-of-society {
+    font-size: var(--font-size-10xl);
+    line-height: 11px;
+  }
+  .desktop-6 {
+    gap: 31px;
+  }
+}
