@@ -1,0 +1,286 @@
+.map1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: inherit;
+    text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  }
+  .main-content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-12xs) 0 0;
+  }
+  .location {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 66px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .fete-area {
+    position: relative;
+    font-size: var(--font-size-13xl);
+    line-height: 28px;
+    font-family: var(--font-roboto-slab);
+    color: var(--color-darkgray);
+  }
+  .location-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-6xl);
+  }
+  .date {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 66px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .august-2023 {
+    position: relative;
+    font-size: var(--font-size-13xl);
+    line-height: 28px;
+    font-family: var(--font-roboto-slab);
+    color: var(--color-darkgray);
+  }
+  .event-date-display,
+  .event-date-display-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .event-date-display {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-base);
+  }
+  .event-date-display-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-xs);
+  }
+  .timings {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 66px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .timings-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xs);
+  }
+  .pm-900pm {
+    position: relative;
+    font-size: var(--font-size-13xl);
+    line-height: 28px;
+    font-family: var(--font-roboto-slab);
+    color: var(--color-darkgray);
+  }
+  .event-time {
+    align-self: stretch;
+    gap: 47px;
+  }
+  .event-dates,
+  .event-time,
+  .specific-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .specific-dates {
+    align-self: stretch;
+    gap: 343px;
+  }
+  .event-dates {
+    width: 278px;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .event-information,
+  .event-schedule {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .event-schedule {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .event-information {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .follow-to-map {
+    width: 311px;
+    position: relative;
+    font-size: var(--font-size-13xl);
+    line-height: 30px;
+    font-family: var(--font-roboto-slab);
+    color: var(--color-darkgray);
+    display: inline-block;
+  }
+  .event-details1 {
+    width: 1333px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-41xl);
+    color: var(--color-gainsboro);
+    font-family: var(--font-outfit);
+  }
+  .image-10-icon {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 396px;
+    max-height: 100%;
+    width: 599px;
+    object-fit: cover;
+  }
+  .image-62-icon {
+    position: absolute;
+    top: 389px;
+    left: 0;
+    width: 419.4px;
+    height: 259px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .gallery2 {
+    width: 995px;
+    height: 789px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 66px;
+    left: 24px;
+  }
+  .desktop-4 {
+    width: 100%;
+    position: relative;
+    background-color: #443ba7;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 81px 48px 160px;
+    box-sizing: border-box;
+    gap: 60px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-77xl);
+    color: var(--color-darkturquoise);
+    font-family: var(--font-rhodium-libre);
+  }
+  @media screen and (max-width: 750px) {
+    .location,
+    .map1 {
+      font-size: var(--font-size-29xl);
+      line-height: 16px;
+    }
+    .location {
+      line-height: 53px;
+    }
+    .fete-area {
+      font-size: var(--font-size-7xl);
+      line-height: 22px;
+    }
+    .date {
+      font-size: var(--font-size-29xl);
+      line-height: 53px;
+    }
+    .august-2023 {
+      font-size: var(--font-size-7xl);
+      line-height: 22px;
+    }
+    .timings {
+      font-size: var(--font-size-29xl);
+      line-height: 53px;
+    }
+    .follow-to-map,
+    .pm-900pm {
+      font-size: var(--font-size-7xl);
+      line-height: 22px;
+    }
+    .follow-to-map {
+      line-height: 24px;
+    }
+    .desktop-4 {
+      gap: var(--gap-11xl);
+      padding-left: var(--padding-5xl);
+      padding-right: var(--padding-5xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .event-schedule {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .map1 {
+      font-size: var(--font-size-10xl);
+      line-height: 11px;
+    }
+    .location {
+      font-size: var(--font-size-17xl);
+      line-height: 40px;
+    }
+    .fete-area {
+      font-size: var(--font-size-lgi);
+      line-height: 16px;
+    }
+    .date {
+      font-size: var(--font-size-17xl);
+      line-height: 40px;
+    }
+    .august-2023 {
+      font-size: var(--font-size-lgi);
+      line-height: 16px;
+    }
+    .timings {
+      font-size: var(--font-size-17xl);
+      line-height: 40px;
+    }
+    .pm-900pm {
+      font-size: var(--font-size-lgi);
+      line-height: 16px;
+    }
+    .event-time {
+      gap: var(--gap-4xl);
+    }
+    .specific-dates {
+      gap: 171px;
+    }
+    .follow-to-map {
+      font-size: var(--font-size-lgi);
+      line-height: 18px;
+    }
+    .desktop-4 {
+      gap: var(--gap-mini);
+    }
+  }  
