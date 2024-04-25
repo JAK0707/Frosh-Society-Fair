@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-pt-serif-caption: "PT Serif Caption";
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-gainsboro: #d9d9d9;
+    --color-black: #000;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-3xs: 10px;
+    --padding-2xs: 11px;
+  
+    /* Border radiuses */
+    --br-11xl: 30px;
+  }  
